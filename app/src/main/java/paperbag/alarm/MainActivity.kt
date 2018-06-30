@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 		setContentView(R.layout.activity_main)
 		setSupportActionBar(toolbar)
 		
+		// TODO: Add clock button
 		fab_main_addclock.setOnClickListener { view ->
 			Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 					.setAction("Action", null).show()
@@ -31,9 +32,14 @@ class MainActivity : AppCompatActivity() {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		return when (item.itemId) {
-			R.id.action_settings -> true
-			else -> super.onOptionsItemSelected(item)
-		}
+		return if (item.itemId == R.id.action_main_setringtone) {
+			// I might take it further later
+			Snackbar.make(
+					coordinatorlayout_main,
+					"NOPE",
+					Snackbar.LENGTH_LONG
+			).show()
+			true
+		} else super.onOptionsItemSelected(item)
 	}
 }
