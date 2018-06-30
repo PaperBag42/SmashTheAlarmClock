@@ -5,7 +5,7 @@ as ordered by Ofer "The Duke" Waldman in exchange for 4 points.
 *Oh yeah baby, those sweet sweet points will be mine* (≖ ͜ʖ≖)
 
 ## The Plan
-The app shall be aimed to be a copy of the default Android alarm clock,
+The app shall be aimed to be a copy of [the default Android alarm clock app](https://play.google.com/store/apps/details?id=com.google.android.deskclock&authuser=0),
 except for two major differences:
 1. The alarm clock shall not stop ringing until the user "smashes it" by solving a riddle or a mathematical equation.
 2. The alarm ringtone shall be the [Aggretsuko opening theme](https://www.youtube.com/watch?v=z9jGaJJlNyo), and the user shall not be able to change it.
