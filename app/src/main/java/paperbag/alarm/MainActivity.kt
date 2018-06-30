@@ -5,8 +5,12 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,7 +19,23 @@ class MainActivity : AppCompatActivity() {
 		setContentView(R.layout.activity_main)
 		setSupportActionBar(toolbar)
 		
-		// TODO: Add clock button
+		// set up recyclerview
+		recyclerview_main.layoutManager = LinearLayoutManager(this)
+		recyclerview_main.adapter = object : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+			override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+				TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+			}
+			
+			override fun getItemCount() = 1 // TODO: Make multiple clocks
+			
+			override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+				TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+			}
+			
+		}
+		
+		
+		// TODO: add clock button
 		fab_main_addclock.setOnClickListener { view ->
 			Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 					.setAction("Action", null).show()
