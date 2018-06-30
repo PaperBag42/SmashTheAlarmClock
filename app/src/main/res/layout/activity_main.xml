@@ -19,17 +19,18 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
-
-    <include
-        android:id="@+id/include"
-        layout="@layout/content_main" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+	
+	<include
+		android:id="@+id/include_main_content"
+		layout="@layout/content_main" />
+	
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/fab_main_addclock"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|center"
+		android:layout_margin="@dimen/fab_margin"
+		android:src="@android:drawable/ic_dialog_email"
+		app:useCompatPadding="false" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
