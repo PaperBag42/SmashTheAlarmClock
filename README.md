@@ -47,5 +47,8 @@ Also I really need the actual Aggretsuko soundtrack (not just the Youtube clip)
 This thing already exists, it's called Alarmy.
 Motivation went from 100 to 0.
 You can do whatever you want with this now, I don't care anymore
+
 :
+
 (
+
