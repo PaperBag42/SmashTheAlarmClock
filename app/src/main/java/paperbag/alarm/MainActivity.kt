@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		return if (item.itemId == R.id.action_main_setringtone) {
+		return if (item.itemId == R.id.action_menu_setringtone) {
 			// I might take it further later
 			Snackbar.make(
 					coordinatorlayout_main,
