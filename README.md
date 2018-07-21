@@ -42,3 +42,13 @@ Also I really need the actual Aggretsuko soundtrack (not just the Youtube clip)
 - [ ] How to make the alarm ring at any time
 - [ ] How to access the phone's alarm volume (instead of the notifications/sound volume)
 - [ ] How to make an activity/view pop up when the alarm goes off (is it even possible?)
+
+# Update: Rest in RecyclerView
+This thing already exists, it's called Alarmy.
+Motivation went from 100 to 0.
+You can do whatever you want with this now, I don't care anymore
+
+:
+
+(
+
